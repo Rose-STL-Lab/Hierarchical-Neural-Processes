@@ -62,13 +62,13 @@ For Gaussian process Model, download sir_gp/nargp_data to dataset_dir: sir_gp/, 
 download climate_gp/* to dataset_dir: climate_gp/
 
 
-<!-- ## Cite
+## Cite
 ```
 @article{wu2022multi,
   title={Multi-fidelity Hierarchical Neural Processes},
   author={Wu, Dongxia and Chinazzi, Matteo and Vespignani, Alessandro and Ma, Yi-An and Yu, Rose},
-  journal={arXiv preprint arXiv:2206.04872},
+  journal={Proceedings of the 28th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD)},
   year={2022}
 }
-``` -->
+```
 
