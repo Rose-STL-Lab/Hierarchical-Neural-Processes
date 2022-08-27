@@ -46,6 +46,6 @@ def kld_gaussian_loss(z_mean_all, z_var_all, z_mean_context, z_var_context):
     std_p = torch.sqrt(var_p)
     p = torch.distributions.Normal(mean_p, std_p)
     q = torch.distributions.Normal(mean_q, std_q)
-    return torch.mean(torch.sum(torch.distributions.kl_divergence(p, q),dim=1))
+    return torch.mean(torch.sum(torch.distributions.kl_divergence(q,p),dim=1))
 
 
