@@ -1,0 +1,37 @@
+---
+base_dir: data/model
+log_level: INFO
+data:
+  batch_size: 128
+  dataset_dir: ../../mfnp_data
+  test_batch_size: 780
+  val_batch_size: 780
+
+model:
+  input_dim: 103
+  output_dim: 100
+  hidden_dim: 32 #16
+  z_hidden_dim: 32 #16
+  z_hidden_layers: 1
+  z_dim: 32 #16
+  l1_num_nodes: 18
+  l2_num_nodes: 85
+  context_percentage_low: 0.2
+  context_percentage_high: 0.25
+  hidden_layers: 5
+  l1_decay: 0
+
+train:
+  base_lr: 0.001
+  epoch: 0
+  epochs: 2000 #250
+  epsilon: 1.0e-3
+  global_step: 0
+  lr_decay_ratio: 0.1 #0.9
+  max_grad_norm: 5
+  max_to_keep: 100
+  min_learning_rate: 2.0e-06
+  optimizer: adam
+  patience: 1000 #500
+  steps: [2500]
+  test_every_n_epochs: 1
