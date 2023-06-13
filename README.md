@@ -67,7 +67,7 @@ download climate_gp/* to dataset_dir: climate_gp/
 @article{wu2022multi,
   title={Multi-fidelity Hierarchical Neural Processes},
   author={Wu, Dongxia and Chinazzi, Matteo and Vespignani, Alessandro and Ma, Yi-An and Yu, Rose},
-  journal={Proceedings of the 28th ACM SIGKDD international conference on Knowledge discovery and data mining (KDD)},
+  journal={Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery \& Data Mining},
   year={2022}
 }
 ```
